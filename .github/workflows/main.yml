@@ -1,0 +1,14 @@
+name: helloGithubAction
+
+on: [push]
+
+jobs:
+  bulid:
+    runs-on: ubuntu-latest
+    steps:
+    - name: hello world!
+      run: echo Hello, world!
+    - name: dir 
+      run: ls -al
+    - name: python version
+      run: python -V
